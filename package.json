@@ -1,0 +1,39 @@
+{
+  "name": "pull-to-load-more",
+  "version": "1.0.0",
+  "description": "A simple JavaScript plugin to load more data as you pull up the page.",
+  "main": "build/PullToLoadMore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhb241/pull-to-load-more.git"
+  },
+  "keywords": [
+    "PullToLoadMore",
+    "pull-to-load-more"
+  ],
+  "author": "Harbor Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yhb241/pull-to-load-more/issues"
+  },
+  "homepage": "https://github.com/yhb241/pull-to-load-more#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4"
+  }
+}
