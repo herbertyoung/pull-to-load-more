@@ -6,8 +6,9 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: __dirname + '/build',
+    path: path.resolve(__dirname, 'build'),
     library: 'PullToLoadMore',
+    libraryExport: 'default',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
