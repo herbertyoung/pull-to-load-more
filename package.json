@@ -1,6 +1,6 @@
 {
   "name": "pull-to-load-more",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple JavaScript plugin to load more data as you pull up the page.",
   "main": "build/PullToLoadMore.js",
   "scripts": {
